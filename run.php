@@ -5,7 +5,7 @@ use Discord\Parts\User\Game;
 include __DIR__.'/vendor/autoload.php';
 
 $discord = new \Discord\Discord([
-    'token' => 'NjYzNzA1MjMyMzk5OTI1MjQ5.XhMZyA.ja099hqwez2_lspFIFS8meAy3m0', // ←作成したBotのTokenを入力してね
+    'token' => getenv('TOKEN'),
 ]);
 
 $game = $discord->factory(Game::class, [
