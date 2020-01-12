@@ -4,6 +4,9 @@ use Discord\Parts\User\Game;
 
 include __DIR__.'/vendor/autoload.php';
 
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
 $discord = new \Discord\Discord([
     'token' => getenv('TOKEN'),
 ]);
