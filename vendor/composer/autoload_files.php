@@ -16,5 +16,6 @@ return array(
     '72579e7bd17821bb1321b87411366eae' => $vendorDir . '/illuminate/support/helpers.php',
     '3be16222a6efa6dd226a219eaaff823b' => $vendorDir . '/ratchet/pawl/src/functions_include.php',
     'cbe44534ca71070aaa1384873fbeb72f' => $vendorDir . '/react/partial/src/React/Partial/functions.php',
+    '320cde22f66dd4f5d3fd621d3e88b98f' => $vendorDir . '/symfony/polyfill-ctype/bootstrap.php',
     '864b292aadc96fda0e2642b894a38d16' => $vendorDir . '/team-reflex/discord-php/src/Discord/functions.php',
 );
